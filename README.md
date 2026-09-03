@@ -10,7 +10,7 @@
 
 | Сеть | Язык | Открытый код |
 |------|------|--------------|
-| TON | FunC | [ton-jetton-vesting](https://github.com/Olegg000/ton-jetton-vesting) — jetton с он-чейн вестингом, 34 теста, [живое демо](https://olegg000.github.io/ton-jetton-vesting/) |
+| TON | FunC | Jetton-минтер TEP-74 с он-чейн вестингом — работа закрыта соглашением с заказчиком |
 | Hyperledger Fabric | TypeScript | [fabric-supply-chain-ts](https://github.com/Olegg000/fabric-supply-chain-ts) — чейнкод учёта поставок, 14 тестов |
 | Waves Enterprise | TypeScript | [waves-enterprise-integration](https://github.com/Olegg000/waves-enterprise-integration) — токенизация документов по SHA-256, 9 тестов |
 | Ethereum | Solidity | в открытый доступ не выкладывался |
@@ -27,4 +27,4 @@ open docs/index.html
 
 ---
 
-Студия Лендвис · [landvis.ru](https://landvis.ru)
+Студия Лендвис · [olegg000.github.io/lendvis](https://olegg000.github.io/lendvis/)

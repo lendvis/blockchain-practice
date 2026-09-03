@@ -293,14 +293,11 @@ footer{border-top:1px solid var(--ink);padding:clamp(58px,8vw,104px) 0 clamp(34p
             <span class="plang">FunC · jetton TEP-74</span>
           </div>
           <div>
-            <p class="ptext">Jetton-минтер с он-чейн вестингом: девять пулов распределения, клиф три месяца, помесячная разблокировка лимитов и настраиваемый burn с перераспределением в игровой пул. Вся логика лимитов живёт в контракте, а не в бэкенде.</p>
+            <p class="ptext">Jetton-минтер стандарта TEP-74 с он-чейн вестингом: график разблокировки и лимиты исполняются самим контрактом, а не бэкендом. Контракт после публикации не исправишь, поэтому вся арифметика закрыта песочными тестами.</p>
           </div>
           <div>
-            <span class="pchip">Код открыт</span>
-            <p class="pstatus">34 sandbox-теста, живой симулятор вестинга.</p>
-            <div class="repo-links">
-              <a class="btn ghost" href="https://github.com/Olegg000/ton-jetton-vesting" rel="noopener">Репозиторий <span class="arr">↗</span></a>
-            </div>
+            <span class="pchip">Публичного кода нет</span>
+            <p class="pstatus">Работа закрыта соглашением с заказчиком.</p>
           </div>
         </article>
 
@@ -449,30 +446,14 @@ footer{border-top:1px solid var(--ink);padding:clamp(58px,8vw,104px) 0 clamp(34p
     <div class="two">
       <div>
         <p class="kicker">Открытый код</p>
-        <h2 id="open-h">Три репозитория,<br>которые можно <em>читать</em></h2>
+        <h2 id="open-h">Два репозитория,<br>которые можно <em>читать</em></h2>
       </div>
-      <p class="lede measure">Чтобы почерк было видно без NDA, отдельные вещи написаны и выложены открыто. Это не заготовки из туториалов: у каждой — своя предметная логика и свои тесты, всего 57.</p>
+      <p class="lede measure">Чтобы почерк было видно без NDA, отдельные вещи написаны и выложены открыто. Это не заготовки из туториалов: у каждой — своя предметная логика и свои тесты, всего 23.</p>
     </div>
 
     <div class="repos">
       <article class="repo">
         <div class="idx">01</div>
-        <div>
-          <h3>Jetton с он-чейн вестингом</h3>
-          <span class="path">github.com/Olegg000/ton-jetton-vesting · TON · FunC</span>
-          <p>Минтер стандарта TEP-74: девять пулов распределения, клиф три месяца, помесячная разблокировка лимитов, настраиваемый burn с перераспределением в игровой пул. Живое демо — интерактивный симулятор вестинга на формулах контракта.</p>
-        </div>
-        <div class="repo-side">
-          <div class="tests"><span class="num">34</span><span>sandbox-теста</span></div>
-          <div class="repo-links">
-            <a class="btn" href="https://olegg000.github.io/ton-jetton-vesting/" rel="noopener">Живое демо <span class="arr">↗</span></a>
-            <a class="btn ghost" href="https://github.com/Olegg000/ton-jetton-vesting" rel="noopener">Код <span class="arr">↗</span></a>
-          </div>
-        </div>
-      </article>
-
-      <article class="repo">
-        <div class="idx">02</div>
         <div>
           <h3>Чейнкод учёта поставок</h3>
           <span class="path">github.com/Olegg000/fabric-supply-chain-ts · Hyperledger Fabric · TypeScript</span>
@@ -487,7 +468,7 @@ footer{border-top:1px solid var(--ink);padding:clamp(58px,8vw,104px) 0 clamp(34p
       </article>
 
       <article class="repo">
-        <div class="idx">03</div>
+        <div class="idx">02</div>
         <div>
           <h3>Токенизация и учёт документов</h3>
           <span class="path">github.com/Olegg000/waves-enterprise-integration · Waves Enterprise · TypeScript</span>
@@ -503,7 +484,7 @@ footer{border-top:1px solid var(--ink);padding:clamp(58px,8vw,104px) 0 clamp(34p
     </div>
 
     <div class="eth-note">
-      <div class="idx">04</div>
+      <div class="idx">03</div>
       <div>
         <h3 style="margin-bottom:8px">Ethereum</h3>
         <p class="note measure">ERC-20, интеграция с Metamask, примитивы DeFi — пул ликвидности и стейкинг. Всё это делалось в коммерческих проектах, поэтому код в открытом доступе не выкладывался.</p>
@@ -565,14 +546,14 @@ footer{border-top:1px solid var(--ink);padding:clamp(58px,8vw,104px) 0 clamp(34p
       <div>
         <p class="note measure" style="margin-bottom:20px">Если задача решается базой и подписью, честнее сказать это сразу. Если нужен контракт — соберём его под вашу логику, с тестами и деплоем.</p>
         <div class="cta-actions">
-          <a class="btn" href="https://landvis.ru" rel="noopener">Обсудить задачу <span class="arr">↗</span></a>
-          <a class="btn ghost" href="https://github.com/Olegg000/ton-jetton-vesting" rel="noopener">Посмотреть код <span class="arr">↗</span></a>
+          <a class="btn" href="https://olegg000.github.io/lendvis/" rel="noopener">Обсудить задачу <span class="arr">↗</span></a>
+          <a class="btn ghost" href="https://github.com/Olegg000/fabric-supply-chain-ts" rel="noopener">Посмотреть код <span class="arr">↗</span></a>
         </div>
       </div>
     </div>
     <div class="sign">
       <div class="studio">Студия <em>Лендвис</em></div>
-      <div class="tag"><a href="https://landvis.ru" rel="noopener">landvis.ru</a></div>
+      <div class="tag"><a href="https://olegg000.github.io/lendvis/" rel="noopener">Лендвис</a></div>
     </div>
   </div>
 </footer>
