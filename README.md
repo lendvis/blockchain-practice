@@ -28,3 +28,9 @@ open docs/index.html
 ---
 
 Студия Лендвис · [olegg000.github.io/lendvis](https://olegg000.github.io/lendvis/)
+
+---
+
+**Студия Лендвис** — разработка сложных IT-продуктов.
+
+[lendvis.ru](https://lendvis.ru) · [hello@lendvis.ru](mailto:hello@lendvis.ru) · [Telegram](https://t.me/lendvis)
